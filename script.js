@@ -3,7 +3,7 @@ function toCase(text) {
 	let str=text;
 	str+='-'
 	for(let i =0;i<text.length;i++){
-		str+=toUppercase(text[i]);
+		str+=toUpperCase(text[i]);
 	}
 	return str;
 	
