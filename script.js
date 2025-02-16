@@ -1,12 +1,8 @@
 function toCase(text) {
-
-	let str=text;
-	str+='-'
-	for(let i =0;i<text.length;i++){
-		str+=toUpperCase(text[i]);
-	}
-	return str;
-	
+    let lowerCaseText = text.toLowerCase();
+    let upperCaseText = text.toUpperCase();
+    let result = lowerCaseText + "-" + upperCaseText;
+    return result;
 }
 
 // DO not change the code below
